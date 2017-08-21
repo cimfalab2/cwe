@@ -4,6 +4,12 @@
         var y = obj.x;
         console.log(y);
     }
+
+    function CWE_476fff() { // NULL_POINTER
+        var obj;
+        var y = obj;
+        console.log(y);
+    }
     function CWE_476ff() { // NULL_POINTER
         var obj;
         var y = obj;
