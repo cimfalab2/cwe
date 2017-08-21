@@ -6,7 +6,7 @@
     }
     function CWE_476ff() { // NULL_POINTER
         var obj;
-        var y = obj.x;
+        var y = obj;
         console.log(y);
     }
 
