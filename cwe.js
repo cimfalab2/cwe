@@ -7,8 +7,11 @@
 
     function CWE_476fff() { // NULL_POINTER
         var obj;
+        var obj2;
         var y = obj;
+        var y2 = obj2.x;
         console.log(y);
+        console.log(y2);
     }
     function CWE_476ff() { // NULL_POINTER
         var obj;
